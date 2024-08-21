@@ -19,9 +19,8 @@ const myFunction = function(){
     console.log("Hello World !"); 
 }
 
-// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// Stack (Primitive),    Heap (Non-Primitive)
-
+// Stack (Primitive),    Heap (Non-Primitive) (original value gets changed)
+// original value doesn't change, only reference
 let userOne = {
     email : "user@gmail.com",
     upi : "user@ybl"
