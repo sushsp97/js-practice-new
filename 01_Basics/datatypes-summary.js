@@ -18,3 +18,19 @@ let myObj =
 const myFunction = function(){
     console.log("Hello World !"); 
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive),    Heap (Non-Primitive)
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sush@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
