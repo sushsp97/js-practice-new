@@ -38,14 +38,29 @@ const users = [
         email:"sp2@gmail.com"
     }
 ]
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); // true
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); // true
 
 // objects destructuring
+const course = {
+    coursename : "JavaScript",
+    price : "999",
+    courseInstructor : "sushreeta"
+}
+
+const {courseInstructor : instructor} = course
+console.log(instructor);
+
+// JSON
+// {
+//     "name" : "sushreeta",
+//     "coursename" : "Javascript",
+//     "price" : "free"
+// }
 
 
 
